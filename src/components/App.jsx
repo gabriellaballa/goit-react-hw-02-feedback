@@ -30,7 +30,7 @@ export const App = () => {
   const feedbackOptions = ['good', 'neutral', 'bad'];
   const showStatistics = countTotalFeedback() > 0;
   return (
-    <div>
+    <div className="feedback">
       <Section title="Please leave feedback">
         <FeedbackOptions
           options={feedbackOptions}
